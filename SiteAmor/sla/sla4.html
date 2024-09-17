@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love 19/06/2023</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6e45e2, #88d3ce);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        .painel {
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 80%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .painel h1 {
+            color: deeppink; 
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .painel-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .painel img {
+            width: 60%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(255, 255, 255, 0.3);
+        }
+
+        .descricao {
+            color: hotpink; 
+            font-size: 1.5rem;
+            text-align: left;
+        }
+
+        .botoes {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        #proximo {
+            height: 40px;
+            width: 150px;
+            background-color: #7d2ae8;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #proximo:hover {
+            background-color: #5a1e9e;
+        }
+
+        @media (max-width: 600px) {
+            .painel {
+                width: 90%;
+                padding: 20px;
+            }
+
+            .painel h1 {
+                font-size: 2rem;
+            }
+
+            .painel-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .painel img {
+                width: 100%;
+                max-width: 200px;
+            }
+
+            .botoes {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            #proximo {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="painel">
+        <h1>Seu sorriso é minha<br>
+            razão para sorrir.🥰</h1>
+        <div class="painel-content">
+            <img src="imagens_gifs/nos2.jpeg" alt="Imagem Especial"> 
+            <div class="descricao">
+                <h3>Você é toda linda, minha querida,<br>
+                    em você não há defeito algum.<br>
+                    Cânticos 4:7</h3> 
+            </div>
+        </div>
+        <div class="botoes">
+            <a href="sla3.html">
+                <input type="button" id="proximo" value="Página anterior">
+            </a>
+            <a href="sla5.html">
+                <input type="button" id="proximo" value="Próxima página"> 
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
